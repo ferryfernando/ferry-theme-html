@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="ddark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog ferryfernando" />
+    <meta name="author" content="Ferry Fernando" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Color Mode JS -->
+    <!-- <script type="" src="color-mode.js"></script> -->
+
+    <title>Ferry Fernando - Beranda</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-black fixed-top" id="sideNav" role="navigation" data-bs-theme="dark">
+            <a href="index.html" class="navbar-brand">Ferry Fernando</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /navigation -->
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 p-0">
+                <article class="px-3">
+                    <h1 class="mt-4 text-primary fw-bold">Lihat Post</h1>
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-muted small"><i class="bi bi-calendar4-event"></i> Selasa,
+                            21-01-2020</li>
+                        <li class="list-inline-item text-muted small"><i class="bi bi-folder2"></i></i><a href="#"
+                                class="text-pink"> Musik</a></li>
+                        <li class="list-inline-item small"><i class="bi bi-tag"></i><a href="tag.html"
+                                class="text-pink"> PHP</a></li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum
+                        quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat.
+                        Temporibus, voluptatibus.</p>
+                    <img class="img-fluid" src="http://placehold.it/900x300" alt="placehold.it">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto
+                        blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione
+                        repellat perspiciatis. Enim, iure!</p>
+
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </figcaption>
+                    </figure>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas
+                        placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem
+                        obcaecati?</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo,
+                        aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam
+                        recusandae? Qui, necessitatibus, est!</p>
+                </article>
+            </div>
+            <!-- /col-md-9-->
+
+            <div class="col-md-3 px-0 px-md-3">
+                <div class="sticky-top pt-4">
+
+                    <!-- Search-->
+                    <form action="search.html" class="">
+                        <div class="input-group mb-4 px-md-0 px-3">
+                            <input type="text" class="form-control rounded-0" placeholder="Pencarian" required>
+                            <button class="btn btn-outline-primary rounded-0" type="submit">Cari</button>
+                        </div>
+                    </form>
+                    <!--/search-->
+
+                    <!-- Kategori -->
+                    <div class="card mb-4 border-0 rounded-0">
+                        <div class="card-header border-0 rounded-0">
+                            <p class="m-0">Kategori</p>
+                        </div>
+                        <div class="card-body list-group py-0 pe-0">
+                            <a href="kategori.html"
+                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0">
+                                Musik
+                                <span class="badge rounded-pill bg-primary">1</span>
+                            </a>
+                            <a href="kategori.html"
+                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0">Komputer
+                                <span class="badge rounded-pill bg-primary">6</span></a>
+                            <a href="kategori.html"
+                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0">Film
+                                <span class="badge rounded-pill bg-primary">3</span></a>
+                            <a href="kategori.html"
+                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0">Tidak
+                                Berkategori <span class="badge rounded-pill bg-primary">5</span></a>
+                        </div>
+                    </div>
+                    <!--/kategori-->
+
+                    <!-- Tags-->
+                    <div class="card mb-4 border-0 rounded-0">
+                        <div class="card-header border-0 rounded-0">Tags</div>
+                        <div class="card-body">
+                            <a href="tag.html" class="btn btn-outline-primary btn-sm rounded-0 m-1">Laravel</a>
+                            <a href="tag.html" class="btn btn-outline-primary btn-sm rounded-0 m-1">PHP</a>
+                            <a href="tag.html" class="btn btn-outline-primary btn-sm rounded-0 m-1">Perang <span
+                                    class="badge text-bg-primary">4</span></a>
+                            <a href="tag.html" class="btn btn-outline-primary btn-sm rounded-0 m-1">Meme</a>
+                            <a href="tag.html"
+                                class="btn btn-outline-primary btn-sm rounded-0 m-1 position-relative">Aksi<span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    99+
+                                    <span class="visually-hidden">unread messages</span>
+                                </span></a>
+                            <a href="tag.html" class="btn btn-outline-primary btn-sm rounded-0 m-1">Komputer</a>
+                        </div>
+                    </div>
+                    <!--/tags-->
+                </div>
+                <!-- /sticky-->
+            </div>
+            <!-- /col-md-3-->
+        </div>
+        <!-- /row-->
+    </div>
+    <!-- /container -->
+
+    <!-- Footer -->
+    <footer class="py-3 bg-black text-white-50">
+        <p class="m-0 text-center">2010-2023. Ferry Fernando</p>
+    </footer>
+    <!-- /footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
