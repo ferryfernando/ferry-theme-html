@@ -12,7 +12,7 @@ will convert to wordpress asap.
 
 @media (prefers-reduced-motion: no-preference) {
     :root {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
 }
 
@@ -111,7 +111,11 @@ body {
 .btn-outline-primary.dropdown-toggle.show,
 .btn-outline-primary:active,
 .btn-outline-primary:hover,
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
     color: #fff;
     background-color: #f012be;
     border-color: #f012be;
@@ -128,11 +132,14 @@ body {
     box-shadow: 0 0 0 0.25rem rgb(240 18 190 / 50%);
 }
 
-a.text-pink {
+a,
+a.nav-link:hover {
     text-decoration: none;
 }
 
-a.text-pink:hover {
+h3 a:hover,
+.card-body li a:hover,
+ul li a:hover {
     color: #f012be;
     text-decoration: underline;
 }
@@ -167,6 +174,7 @@ article p, img, figure, h1, ul.list-inline {
 }
 
 @media (max-width: 767.98px) {
+
     #jumbo,
     article,
     .nav-bb {
