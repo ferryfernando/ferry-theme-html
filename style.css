@@ -1,24 +1,25 @@
 /* 
 date: November 2023
-bootstrap version: 5.3.2
-bootstrap icon version: 1.11.2
+bootstrap version: 5.3.3
+bootstrap icon version: 1.11.3
 inspiration: https://startbootstrap.com/theme/resume
 font: ubuntu, gentium plus https://fonts.google.com/specimen/Gentium+Plus
 
 this is html version as basic.
-will convert to wordpress asap.
+will convert to WordPress.
+
+updated: june 2024
 */
 
+body {
+    padding-top: 3.375rem;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 @media (prefers-reduced-motion: no-preference) {
     :root {
         scroll-behavior: smooth;
     }
-}
-
-body {
-    padding-top: 3.375rem;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -74,11 +75,6 @@ body {
     }
 }
 
-#sideNav {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 @media (min-width: 1200px) {
     .carousel-item {
         height: 65vh;
@@ -89,6 +85,25 @@ body {
         -o-background-size: cover;
         background-size: cover;
     }
+}
+
+@media (max-width: 767.98px) {
+    #jumbo,
+    article,
+    .nav-bb {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sticky-ahua {
+        top: 3.5rem;
+    }
+}
+
+#sideNav {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .card-post {
@@ -133,6 +148,7 @@ body {
 }
 
 a,
+a.page-link:hover,
 a.nav-link:hover {
     text-decoration: none;
 }
@@ -142,12 +158,6 @@ h3 a:hover,
 ul li a:hover {
     color: #f012be;
     text-decoration: underline;
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .sticky-ahua {
-        top: 3.5rem;
-    }
 }
 
 .form-control:focus {
@@ -162,25 +172,11 @@ ul li a:hover {
     border-radius: 0;
 }
 
-/* 
-article p, img, figure, h1, ul.list-inline {
-    padding-left: 1rem;
-    padding-right: 1rem;
-} */
-
 .page-item:first-child .page-link,
 .page-item:last-child .page-link {
     border-radius: 0;
 }
 
-@media (max-width: 767.98px) {
-
-    #jumbo,
-    article,
-    .nav-bb {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    }
-}
 
 .carousel-item {
     /* background-color: #000000; */
@@ -208,4 +204,9 @@ article p, img, figure, h1, ul.list-inline {
 
 #jumbo figure {
     margin-bottom: 0;
+}
+
+.page-item.active .page-link {
+    background-color: #f012be;
+    border-color: #f012be;
 }
